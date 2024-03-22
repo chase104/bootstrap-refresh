@@ -1,3 +1,24 @@
 .navbar .btn-outline-light:hover {
   color: var(--bs-dark);
 }
+.header {
+  background: url("../images/header-background.jpg") no-repeat center center;
+  background-size: cover;
+}
+.navbar {
+  transition: all 0.35s;
+}
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1000px) {
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
+}

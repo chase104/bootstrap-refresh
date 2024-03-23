@@ -45,6 +45,8 @@ $spacers: (
   8: $spacer * 12,
 ) !default;
 
+$enable-negative-margins: true;
+
 $line-height-base: 1.7;
 $headings-margin-bottom: $spacer * 1;
 
